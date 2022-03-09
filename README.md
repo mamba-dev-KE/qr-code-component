@@ -25,7 +25,7 @@ Create the desktop and modbile designs as presented in the design foldrer.
 ### Links
 
 - Solution URL: [GitHub](https://github.com/mamba-dev-KE/qr-code-component)
-- Live Site URL: [Visit here]()
+- Live Site URL: [Visit here](https://wonderful-nobel-e5bbb6.netlify.app/)
 
 ## My process
 
