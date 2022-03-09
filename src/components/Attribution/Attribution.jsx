@@ -1,7 +1,20 @@
 import React from "react";
 import "./Attribution.scss";
+import { motion } from "framer-motion";
 
 const Attribution = ({ isDark }) => {
+  const techVariants = {
+    hidden: {
+      y: -300,
+      opacity: 0.2,
+      rotate: 0,
+    },
+    visible: {
+      y: 0,
+      opacity: 1,
+    },
+  };
+
   return (
     <div className="attribution">
       <p className="attribution__designer">
@@ -30,9 +43,17 @@ const Attribution = ({ isDark }) => {
           }
         >
           Coded By: Joseph Maramba Weyao
-          <span role="img" aria-label="tech">
+          <motion.span
+            variants={techVariants}
+            initial="hidden"
+            animate="visible"
+            whileHover="hover"
+            role="img"
+            aria-label="tech"
+            className="tech"
+          >
             💻 🖥
-          </span>
+          </motion.span>
         </a>
       </p>
     </div>

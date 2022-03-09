@@ -10,24 +10,24 @@ const DarkMode = ({ isDark, toggleDarkMode }) => {
       scale: 1,
       y: -200,
       opacity: 0.3,
-      rotate: 0
+      rotate: 0,
     },
     visible: {
       y: 0,
       opacity: 1,
       rotate: -10,
       transition: {
-        delay: 3
-      }
+        delay: 3,
+      },
     },
     hover: {
       scale: 1.5,
       rotate: -20,
       transition: {
         duration: 0.5,
-        ease: "easeInOut"
-      }
-    }
+        ease: "easeInOut",
+      },
+    },
   };
   return (
     <motion.div
