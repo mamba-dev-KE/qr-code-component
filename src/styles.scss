@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  // normal mode
+  --clr-white: 0 0% 100%;
+  --clr-light-gray: 212 45% 89%;
+  --clr-grayish-blue: 220 15% 55%;
+  --clr-dark-blue: 218 44% 22%;
+
+  //dark mode
+  --dark-mode-bg: 0 0% 0%;
+  --dark-mode-bg: 0 0% 10%;
+  --dark-mode-text: 0 0% 66%;
+  --dark-mode-card: 0 0% 30%;
+  --dark-mode-card-title: 0 0% 95%;
+  --dark-mode-card-text: 0 0% 90%;
+
+  // typography
+  --base-font: 10px;
+  --font-family: 'Outfit', sans-serif;
+
+  font-size: var(--base-font);
+}
+
+body {
+  font-size: 1.5rem;
+  font-family: var(--font-family);
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.main {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+
+  background-color: hsl(var(--clr-light-gray));
+  transition: all 400ms ease;
+}
+
+.main--dark {  
+  background-color: hsl(var(--dark-mode-bg));
+  color: hsl(var(--dark-mode-text));
+}
+
+.container {
+  max-width: 30rem;
+}
+
+
+

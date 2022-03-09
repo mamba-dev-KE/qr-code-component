@@ -1,0 +1,46 @@
+.qr {
+  background-color: hsl(var( --clr-white));
+  padding: 1em;
+  width: calc(100% - 4.5rem);  
+
+  border-radius: 2rem;
+  cursor: pointer;
+
+  position: relative;
+
+  .qr__image {
+    border-radius: 1rem;
+  }  
+  .qr__title {
+    text-align: center;
+    max-width: 18ch;
+
+    font-size: 2rem;
+      
+    padding-block: 0.9em;
+    margin-inline: auto;
+
+    color: hsl(var(--clr-dark-blue));
+    font-weight: 700;
+  }
+  
+  .qr__text {
+    max-width: 25ch;
+    text-align: center;
+    margin-inline: auto;
+
+    color: hsl(var(--clr-grayish-blue));
+    padding-block-end: 2em;
+
+  }
+}
+
+.qr--dark {
+  background-color: hsl(var( --dark-mode-card));  
+  .qr__title--dark {
+    color: hsl(var( --dark-mode-card-title));
+  }
+  .qr__text--dark {
+    color: hsl(var( --dark-mode-card-text));
+  }
+}
