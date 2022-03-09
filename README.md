@@ -16,9 +16,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### The challenge
 
-Users should be able to:
-
-- View the optimal layout depending on their device's screen size
+Create the desktop and modbile designs as presented in the design foldrer.
 
 ### Screenshot
 
@@ -27,7 +25,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/mamba-dev-KE/qr-code-component)
-- Live Site URL: [Visit here](https://inspiring-varahamihira-e3b4b7.netlify.app/)
+- Live Site URL: [Visit here]()
 
 ## My process
 
@@ -39,8 +37,8 @@ Users should be able to:
 - React Icons
 - CSS Grid
 - Mobile-first workflow
-- Custom Properties
-- Logical Properties
+- CSS Custom Properties
+- CSS Logical Properties
 - Other modern CSS techniques
 
 ## Author
